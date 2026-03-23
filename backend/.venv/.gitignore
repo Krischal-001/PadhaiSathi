@@ -1,0 +1,68 @@
+*# --- Python / Django ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Environment Variables (CRITICAL) ---
+# Contains Khalti keys, DB passwords, and Secret Keys 
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak
+venv.bak
+
+# --- Databases ---
+# Prevents local SQLite or DB dumps from being tracked 
+*.sqlite3
+*.db
+*.sql
+
+# --- Static & Media ---
+# User-uploaded profile photos should not be in Git 
+media/
+staticfiles/
+static_root/
+
+# --- Celery & Redis ---
+# Celery beat schedule file 
+celerybeat-schedule
+celerybeat.pid
+
+# --- System & IDEs ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# --- Logs ---
+*.log
+logs/
